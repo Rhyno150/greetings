@@ -43,6 +43,9 @@ function GreetingApp() {
       case 'spanish':
         greeting = `Hola, ${name}!`;
         break;
+        case 'french':
+        greeting = `Bonjor, ${name}!`;
+        break;
       // Add more cases for other languages
       default:
         greeting = `Hello, ${name}!`; // Default greeting
