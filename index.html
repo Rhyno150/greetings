@@ -10,10 +10,24 @@
     <div class="greeting-container">
         <h1>Enter your name:</h1>
         <input type="text" id="nameInput" placeholder="Your Name">
+        <br>
+        <h2>Choose Language:</h2>
+        <label for="english">English</label>
+        <input type="radio" id="english" name="language" value="english" checked>
+        <label for="spanish">Spanish</label>
+        <input type="radio" id="spanish" name="language" value="spanish">
+        <label for="french">French</label>
+        <input type="radio" id="french" name="language" value="french">
+        <br>
         <button id="greetBtn">Greet</button>
+        <button id="resetBtn">Reset Counter</button>
         <div id="greetingOutput"></div>
+        <p id="greetCount">Unique Greetings: 0</p>
     </div>
 
     <script src="greet.js"></script>
 </body>
 </html>
+
+
+
