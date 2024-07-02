@@ -42,8 +42,26 @@ function GreetingApp() {
         break;
       case 'spanish':
         greeting = `Hola, ${name}!`;
-        
+        break;
+      // Add more cases for other languages
+      default:
+        greeting = `Hello, ${name}!`; // Default greeting
+    }
 
+    greetingOutput.textContent = greeting;
+  });
 
+  // Add event listener for reset button (optional)
+  resetBtn.addEventListener('click', () => {
+    uniqueGreetings = 0;
+    namesGreeted = {};
+    nameInput.value = '';
+    greetingOutput.textContent = '';
+    // Reset language radio buttons (if needed)
+  });
+}
+
+// Create an instance of the GreetingApp
+const greetingApp = new GreetingApp();
 
 
