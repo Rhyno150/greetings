@@ -1,0 +1,42 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .greeting-container {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  h1 {
+    margin-bottom: 10px;
+  }
+  
+  #nameInput {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    width: 200px;
+  }
+  
+  #greetBtn {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  #greetingOutput {
+    font-size: 1.2em;
+    margin-top: 10px;
+  }
+  
